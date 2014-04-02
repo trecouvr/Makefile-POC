@@ -1,5 +1,5 @@
 
-.PHONY: echo
+.PHONY: run_dev_ops run_dev_www
 
 run_dev_ops: config-OPS_PORT
 	echo "Run dev ops on port $(OPS_PORT)"
